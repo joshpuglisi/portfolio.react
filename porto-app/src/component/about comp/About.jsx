@@ -18,7 +18,7 @@ const About = () => {
                 Gottfried Wilhelm Leibniz Universität Hannover.
             </p>
             <p className="ab-desc">
-                My full name, is Joshua Giuseppe Puglisi. It starts from an adoration
+                My full name is Joshua Giuseppe Puglisi. It started as an adoration
                 when I was a 7th grader. The task given that day was to create a simple
                 HTML page. I realized that I could one day design a web page that could
                 be seen by many people. Then come highschool years. I once again learned
