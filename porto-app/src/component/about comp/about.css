@@ -1,0 +1,17 @@
+.ab-column{
+    display: flex;
+    height: 100vh;
+}
+
+.ab-col-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(39, 39, 39);
+}
+
+.ab-col-right{
+    flex: 1;
+    position: relative;
+}
