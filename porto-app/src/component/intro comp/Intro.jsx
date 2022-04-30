@@ -19,7 +19,7 @@ const Intro = () => {
                     </div>
                     <p className="left-desc">
                         I am a student trying to learn my way into becoming a
-                        professional Web Developer. I also do some illustrating
+                        professional Web and Front End Developer. I also do some illustrating
                         as a hobby. Nice to meet you!
                     </p>
                 </div>
