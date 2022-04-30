@@ -1,0 +1,62 @@
+.h-col{
+    height: 100vh;
+    background-color: rgb(68, 68, 68);
+    display: flex;
+}
+
+.h-col-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.line-bg{
+    width: 10px;
+    height: 100%;
+    background-color: rgb(206, 151, 0);
+    position: absolute;
+}
+
+.line-bg2{
+    width: 10px;
+    height: 100%;
+    background-color: rgb(206, 151, 0);
+    float: right;
+}
+
+.h-col-right{
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.hobby-title{
+    font-size: 50px;
+    margin: 0px 80px;
+    font-weight: 300;
+}
+
+.hobby-sub{
+    margin: 0px 80px;
+    font-weight: 150;
+    color: rgb(206, 151, 0);
+}
+
+.hobby-desc{
+    margin: 15px 80px;
+    font-size: 18px;
+}
+
+.button-wrapper{
+    text-align: center;
+}
+
+.button-logo{
+    width: 250px;
+    height: auto;
+    margin-top: 20px;
+}

@@ -28,6 +28,9 @@ const About = () => {
                     in a team of 6. We developed a web-app, using exactly what I have learned all these
                     years, using React as framework. Learning React was a challenge for me, but it has helped
                     me becoming a better developer than before. It is nice meeting you!!
+                    <br></br>
+                    <br></br>
+                    <p style={{color: 'rgb(206, 151, 0)'}}>Programming Skills I learned: C, Java, HTML, CSS, JavaScript, React, RestAPI</p>
                 </p>
             </div>
         </div>
