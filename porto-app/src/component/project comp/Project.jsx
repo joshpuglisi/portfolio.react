@@ -34,7 +34,7 @@ const Project = () => {
                         <br></br>
                         <br></br>
                         This project involved the application of <b style={{color: 'rgb(206, 151, 0)'}}>HTML, CSS, JavaScript, and also RestAPI</b>, all together
-                        inside a <b style={{color: 'lightblue'}}>React Framework</b>. The minimalistic design was made using AntDesign. The data was
+                        inside a <b style={{color: 'skyblue'}}>React Framework</b>. The minimalistic design was made using AntDesign. The data was
                         stored and managed using SQLite, a database provided by Django, a python Framework for Web Development.
                     </p>
                 </div>
