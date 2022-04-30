@@ -1,25 +1,17 @@
 .project-list{
     height: 100vh;
     background-color: rgb(39, 39, 39);
-}
-
-.project-title{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
 }
 
 .proj-title{
-    align-items: center;
-    font-size: 60px;
-    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 40px;
     text-justify: auto;
 }
 
 .horizontal-bar{
-    clip-path: polygon(0 0, 100% 0, 100% 1%, 0 1%);
+    clip-path: polygon(0 10%, 100% 10%, 100% 9%, 0 9%);
     background-color: rgb(206, 151, 0);
     width: 100%;
     height: 100%;
@@ -27,48 +19,49 @@
 }
 
 .horizontal-bar2{
-    clip-path: polygon(0 100%, 100% 100%, 100% 99%, 0 99%);
+    clip-path: polygon(0 90%, 100% 90%, 100% 91%, 0 91%);
     background-color: rgb(206, 151, 0);
     width: 100%;
     height: 100%;
     position: absolute;
 }
 
-.col-div{
-    display: flex;
-}
-
 .left-col{
     flex: 1;
+    background-color: rgb(39, 39, 39);
     justify-content: center;
     display: flex;
     flex-direction: column;
+
 }
 
 .title-desc{
     font-weight: 100;
-    margin-left: 50px;
+    margin: 10px 50px;
     color: rgb(206, 151, 0);
     text-justify: auto;
 }
 
 .sub-desc{
     margin-left: 50px;
+    font-size: 20px;
 }
 
 .desc-pro{
-    margin: 10px 50px;
+    margin: 5px 50px;
     text-justify: auto;
+    font-size: 20px;
 }
 
 .right-col{
     flex: 1;
     align-items: center;
     justify-items: center;
+    display: flex;
 }
 
 .prod-video{
     width: 80%;
     height: auto;
-    margin: 100px 100px;
+    margin: 0px 100px;
 }

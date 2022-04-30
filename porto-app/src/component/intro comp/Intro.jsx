@@ -6,8 +6,6 @@ const Intro = () => {
     return (
         <div className='flex-column'>
             <div className='flex-column-left'>
-                <div className="left-img-wrapper1"></div>
-                <div className="left-img-wrapper2"></div>
                 <div className='left-wrapper'>
                     <h2 className='left-intro'>Hello there! My Name is</h2>
                     <h1 className='left-name'>Joshua Puglisi</h1>
@@ -28,7 +26,6 @@ const Intro = () => {
             </div>
             <div className='flex-column-right'>
                 <img src={portoMe} alt="" className="right-img" />
-                <div className="right-img-wrapper1"></div>
                 <div className="right-img-wrapper2"></div>
             </div>
         </div>
