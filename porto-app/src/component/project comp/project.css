@@ -15,6 +15,23 @@
     align-items: center;
     font-size: 60px;
     margin-top: 100px;
+    text-justify: auto;
+}
+
+.horizontal-bar{
+    clip-path: polygon(0 0, 100% 0, 100% 1%, 0 1%);
+    background-color: rgb(206, 151, 0);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.horizontal-bar2{
+    clip-path: polygon(0 100%, 100% 100%, 100% 99%, 0 99%);
+    background-color: rgb(206, 151, 0);
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
 
 .col-div{
@@ -29,8 +46,19 @@
 }
 
 .title-desc{
-    font-size: 30px;
-    font-weight: 200;
+    font-weight: 100;
+    margin-left: 50px;
+    color: rgb(206, 151, 0);
+    text-justify: auto;
+}
+
+.sub-desc{
+    margin-left: 50px;
+}
+
+.desc-pro{
+    margin: 10px 50px;
+    text-justify: auto;
 }
 
 .right-col{
