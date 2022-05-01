@@ -68,3 +68,24 @@ ul:hover li {
 ul li:hover {
     width:750px;
 }
+
+@media screen and (max-width: 480px){
+    img{
+        width: 300px;
+        height: 175px;
+    }
+
+    ul{
+        width:300px;
+        height:175px;
+    }
+
+    ul:hover li {
+        width:20px;  
+    }
+      
+      
+    ul li:hover {
+        width:250px;
+    }
+}

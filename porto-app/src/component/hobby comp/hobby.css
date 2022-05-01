@@ -60,3 +60,28 @@
     height: auto;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 480px){
+    .h-col{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .h-col-left{
+        margin-top: 50px;
+    }
+
+    .line-bg{
+        display: none;
+    }
+
+    .line-bg2{
+        display: none;
+    }
+
+    .h-col-right{
+        margin-top: 50px;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
