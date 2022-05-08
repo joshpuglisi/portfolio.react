@@ -66,7 +66,7 @@
     margin: 0px 100px;
 }
 
-@media screen and (max-width: 480px){
+/*@media screen and (max-width: 480px){
     .project-list{
         flex-direction: column;
         text-align: center;
@@ -111,4 +111,17 @@
         display: none;
     }
 
+}*/
+
+@media screen and (max-width: 1380px){
+    .proj-title{
+        font-size: 30px;
+        text-justify: auto;
+    }
+
+    .desc-pro{
+        margin: 5px 50px;
+        text-justify: auto;
+        font-size: 15px;
+    }
 }

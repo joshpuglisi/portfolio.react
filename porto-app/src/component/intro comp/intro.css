@@ -97,15 +97,26 @@
     object-fit: cover;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 380px){
     .flex-column{
         flex-direction: column;
+        align-items: center;
     }
 
     .flex-column-left{
         text-align: center;
     }
 
+    .flex-column-right{
+        flex-direction: column;
+    }
+
+    
+
+    .left-desc{
+        display: none;
+    }
+    /*
     .left-wrapper{
         padding: 45px;
         align-items: center;
@@ -130,7 +141,5 @@
         font-size: 25px;
     }
 
-    .left-desc{
-        display: none;
-    }
+    */
 }

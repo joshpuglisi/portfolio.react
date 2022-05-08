@@ -62,7 +62,7 @@
     font-size: 18px;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 380px){
     .ab-column{
         flex-direction: column;
         text-align: center;
@@ -81,11 +81,13 @@
     }
 
     .ab-title{
-        text-align: center;   
+        text-align: center;
+        font-size: 30px;   
     }
 
     .ab-sub{
         text-align: center;
+        font-size: 15px;
         margin-left: 50px;
     }
 
@@ -102,7 +104,8 @@
 
     .ab-desc{
         font-size: 15px;
-        text-align: center;
+        text-align: left;
         margin-left: 60px;
+        padding-bottom: 20px;
     }
 }

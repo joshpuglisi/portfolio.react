@@ -61,14 +61,14 @@
     margin-top: 20px;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 970px){
     .h-col{
         flex-direction: column;
         text-align: center;
     }
 
     .h-col-left{
-        margin-top: 50px;
+        display:none;
     }
 
     .line-bg{
