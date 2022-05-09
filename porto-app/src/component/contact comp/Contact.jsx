@@ -29,7 +29,7 @@ const Contact = () => {
                     <input type="text" placeholder='Name' name='user_name' />
                     <input type="text" placeholder='Subject' name='user_subject' />
                     <input type="text" placeholder='E-Mail' name='user_email' />
-                    <textarea rows="10" placeholder='Message' name='message' />
+                    <textarea rows="8" placeholder='Message' name='message' />
                     <button>Submit</button>
                     {done && " Message sent! Thank you so much!"}
                 </form>
